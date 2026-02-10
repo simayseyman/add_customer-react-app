@@ -1,16 +1,62 @@
-# React + Vite
+# Customer Registration App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo:  
+https://dynamic-naiad-0caf0d.netlify.app/
 
-Currently, two official plugins are available:
+GitHub Repository:  
+https://github.com/simayseyman/add_customer-react-app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a simple Customer Registration application built with React. Users can add, edit, and delete customer information through a clean and user-friendly interface. The application demonstrates basic CRUD operations using React functional components and hooks.
 
-## React Compiler
+Features:
+- Add new customers (First Name, Last Name, Email, Date of Birth)
+- Edit existing customer information
+- Delete customers from the list
+- Dynamic UI updates with React state management
+- Responsive and modern user interface
+- Deployed on Netlify
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Technologies Used:
+- React.js
+- JavaScript (ES6)
+- Tailwind CSS
+- Heroicons
+- Netlify (Deployment)
 
-## Expanding the ESLint configuration
+Project Structure:
+- TodoPage.js: Main page logic and state management
+- TodoItem.js: Component for displaying each customer
+- Todo.js: Customer model class
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Installation and Run Locally:
+1. Clone the repository:
+   git clone https://github.com/simayseyman/add_customer-react-app.git
+
+2. Navigate to the project folder:
+   cd add_customer-react-app
+
+3. Install dependencies:
+   npm install
+
+4. Run the application:
+   npm run dev
+
+Deployment:
+This project is deployed using Netlify. The project was connected to GitHub and automatically deployed with the following settings:
+- Build command: npm run build
+- Publish directory: dist
+
+Every push to the GitHub repository triggers an automatic redeployment.
+
+Learning Objectives:
+- Practice React functional components and hooks (useState)
+- Implement CRUD operations (Create, Read, Update, Delete)
+- Improve UI design using Tailwind CSS
+- Learn how to deploy a React application using Netlify
+
+Author:
+Simay Seyman  
+GitHub: https://github.com/simayseyman
+
+License:
+This project is created for educational purposes only.
